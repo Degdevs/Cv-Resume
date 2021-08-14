@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo">Diego</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="bx bx-home nav_icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#profile" class="nav_link">
+                <i class="bx bx-user nav_icon"></i>Perfil
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#education" class="nav_link">
+                <i class="bx bx-book-bookmark nav_icon"></i>Estudios
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#experience" class="nav_link">
+                <i class="bx bx-briefcase-alt nav_icon"></i>Experiencia
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#certificates" class="nav_link">
+                <i class="bx bx-award nav_icon"></i>Certificados
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#references" class="nav_link">
+                <i class="bx bx-link-external nav_icon"></i>Referencias
+              </a>
+
+              <li class="nav_item">
+                <a href="#skills" class="nav_link">
+                  <i class="bx bx-receipt nav_icon"></i>Skills
+                </a>
+              </li>
+
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume_left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <!-- Theme change button -->
+
+            <div class="home_container section bd-grid">
+              <div class="home_data bd-grid">
+                <img
+                  src="assets/img/facha-horizontal-sentado.jpg"
+                  alt=""
+                  class="home_img"
+                />
+
+                <h1 class="home_title">Barrera <b>Diego</b></h1>
+                <h3 class="home_profession">FullStack Developer</h3>
+
+                <!-- Button to generate and download the pdf. Available for desktop. -->
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home_button-movil"
+                  >
+                    Download
+                  </a>
+                </div>
+              </div>
+
+              <div class="home_adress bd-grid">
+                <span class="home_information">
+                  <i class="bx bx-map home_icon"></i> Av. Santa Fe 1291 Buenos
+                  Aires - Argentina
+                </span>
+
+                <span class="home_information">
+                  <i class="bx bx-envelope home_icon"></i> info@barreradiego.com
+                </span>
+
+                <span class="home_information">
+                  <a
+                href="https://www.barreradiego.com"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-chrome home_icon"></i> www.barreradiego.com
+              </a>
+                </span>
+
+                <span class="home_information">
+                  <i class="bx bx-phone home_icon"></i> (+54 9) 11 5014-3632
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' title='Theme' id='theme-button'></i>
+ 
+            <!-- button to generate and download the pdf -->
+            <i class='bx bx-download generate-pdf' title='Generate PDF' id="resume-button"></i>
+
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social_container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/diegobarrera10/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-linkedin-square social_icon"></i> @Diego
+                Barrera
+              </a>
+
+              <a
+                href="https://www.facebook.com/diego_devs-100289595492006/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-facebook social_icon"></i> @diego_devs
+              </a>
+
+              <a
+                href="https://www.instagram.com/diego_devs/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-instagram social_icon"></i> @diego_devs
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Perfil</h2>
+
+            <p class="profile_description">
+            Me considero una persona responsable, a la que le gusta 
+            aprender constantemente cosas nuevas para desarrollar 
+            nuevas habilidades y desafiarme constantemente para así
+            salir de mi zona de confort.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Estudios</h2>
+
+            <div class="education_conatiner bd-grid">
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">Ciencias de la Computacion</h3>
+                  <span class="education_studies"
+                    >Universidad de Buenos Aires</span
+                  >
+                  <span class="education_year">2020 - 2026</span>
+                </div>
+              </div>
+
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <!-- <span class="education_line"></span> -->
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">Bachiller Secundario</h3>
+                  <span class="education_studies"
+                    >I.E.S Lenguas Vivas JRF</span
+                  >
+                  <span class="education_year">2015 - 2019</span>
+                </div>
+              </div>
+
+              <!-- <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span> -->
+                  <!-- <span class="education_line"></span> -->
+                <!-- </div> -->
+
+                <!-- <div class="education_data bd-grid">
+                  <h3 class="education_title">Ciencias de la Computacion</h3>
+                  <span class="education_studies"
+                    >Universidad de Buenos Aires</span
+                  >
+                  <span class="education_year">2020 - 2026</span>
+                </div>
+              </div> -->
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Intereses</h2>
+
+            <div class="interests_container bd-grid">
+              <div class="interests_content">
+                <i class="bx bx-code-alt interests_icon"></i>
+                <span class="interests_name">Coding</span>
+              </div>
+
+              <div class="interests_content">
+                <i class="bx bxs-plane-alt interests_icon"></i>
+                <span class="interests_name">Viajar</span>
+              </div>
+
+              <div class="interests_content">
+                <i class="bx bx-book interests_icon"></i>
+                <span class="interests_name">Leer</span>
+              </div>
+
+              <div class="interests_content">
+                <i class="bx bx-dumbbell interests_icon"></i>
+                <span class="interests_name">Fitness</span>
+              </div>
+
+              <div class="interests_content">
+                <i class='bx bx-paint interests_icon'></i>
+                <span class="interests_name">Disenar</span>
+              </div>
+
+              <div class="interests_content">
+                <i class='bx bx-bulb interests_icon'></i>
+                <span class="interests_name">Pensar</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume_right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experiencia</h2>
+
+            <div class="experience_container bd-grid">
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">Freelancer</h3>
+                  <span class="experience_company"
+                    >2021 | La Barberia de Pol</span
+                  >
+                  <p class="experience_description">
+                    Como Freelancer diseñé y programé una página web para "La Barberia de Pol". Esta debia ser responsive y era escencial que tenga un diseno sencillo para que la barberia pueda mostrar su trabajo, ubicación y demas a sus clientes. 
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <!-- <span class="experience_line"></span> -->
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">Freelancer</h3>
+                  <span class="experience_company"
+                    >2020 | Potencia Tu Mente</span
+                  >
+                  <p class="experience_description">
+                    En este trabajo empeñé varias tareas de corrección para la página
+                    web de mi cliente. Esta contaba con varias secciones que no
+                    funcionaban y tambien se hicieron pequenos cambios en el diseño.
+                  </p>
+                </div>
+              </div>
+<!-- 
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">Master of design</h3>
+                  <span class="experience_company"
+                    >From 2020 to 2021 | Tech Soft</span
+                  >
+                  <p class="experience_description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.Placeat voluptate consectetur cumque natus possimus
+                    voluptatem vitae beatae. Praesentium, repellendus numquam,
+                    deleniti asperiores fuga enim autem reiciendis at
+                    voluptatem, doloribus nostrum!
+                  </p>
+                </div> -->
+              <!-- </div> -->
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificados</h2>
+
+            <div class="cetificate_constainer bd-grid">
+              <div class="certificate_content">
+                <h3 class="certificate_title">
+                  Certificado en JavaScript avanzado: Buenas Practicas (2021) | LinkedIn
+                </h3>
+                <p class="certificate_description">
+                  En este curso se conocen las buenas practicas mas populares y 
+                  eficaces, que hacen que tu trabajo como desarrollador usando 
+                  JavaScript mejore y sea más práctico al trabajar en una nueva aplicación web
+
+                </p>
+              </div>
+
+              <div class="certificate_content">
+                <h3 class="certificate_title">
+                  Certificado en JavaScript escencial (2021) | LinkedIn
+                </h3>
+                <p class="certificate_description">
+                  Este curso comprende desde los fundamentos hasta un nivel
+                  intermedio en el lenguaje de programación JavaScript.
+                </p>
+              </div>
+
+              <div class="certificate_content">
+                <h3 class="certificate_title">
+                  Certificado en Desarrollo de Apps Moviles (2021) | Google Activate
+                </h3>
+                <p class="certificate_description">
+                  Este curso enseña las habilidades y conceptos básicos para crear aplicaciones para dispositivos móviles.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references">
+            <h2 class="section-title">Referencias</h2>
+
+            <div class="references_container bd-grid">
+              <div class="references_content bd-grid">
+                <span class="references_subtitle">Cliente</span>
+                <h3 class="references_title">Adriana Carro</h3>
+                <ul class="references_contact">
+                  <li>Telefono: +54 9 11 5014-3632</li>
+                  <li>Email: adrycarro@gmail.com</li>
+                </ul>
+              </div>
+
+              <!-- <div class="references_content bd-grid">
+                <span class="references_subtitle">Sr. Director</span>
+                <h3 class="references_title">Mr. Clay Doe</h3>
+                <ul class="references_contact">
+                  <li>Phone: 999-888-777</li>
+                  <li>Email: user@email.com</li>
+                </ul>
+              </div> -->
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Idiomas</h2>
+
+            <div class="languages_container">
+              <ul class="languages_content bd-grid">
+                <li class="languages_name">
+                  <span class="languages_circle"></span> Ingles
+                </li>
+                <li class="languages_name">
+                  <span class="languages_circle"></span> Italiano
+                </li>
+                <li class="languages_name">
+                  <span class="languages_circle"></span> Frances
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== SKILLS ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills_content bd-grid">
+              <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Html
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Css
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Python
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> JavaScript
+                </li>
+              </ul>
+
+              <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Bootstrap
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> React
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Node
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Django
+                </li>
+              </ul>
+
+              <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skills_circle"></span> MySql
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Git
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Firebase
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span> Linux
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
